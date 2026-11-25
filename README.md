@@ -35,13 +35,13 @@ The model was trained and evaluated on a public dataset containing 284,807 credi
 
 ### Confusion Matrix
 
-![Final Confusion Matrix](final_confusion_matrix.png)
+![Final Confusion Matrix](DetectionFraud1.png)
 
 The model successfully detected 81 of 99 fraudulent transactions in the test set, with 5 false positives and 18 false negatives.
 
 ### Threshold Analysis
 
-![Threshold Comparison](threshold_comparison.png)
+![Threshold Comparison](DetectionFraud2.png)
 
 An exploratory threshold comparison demonstrated the tradeoff between precision and recall. The final threshold was selected separately using validation data.
 
